@@ -1,4 +1,7 @@
 # PAL
+
+## Introduction
+
 PAL(Pushdown Automata Language) is a custom language that operates by simulating and instructing an imaginary Turing-complete N-stack Pushdown Automata.
 <br>
 The 'machine' consists of an array of N separate stacks, and a 'head' that can move left and right to point at different stacks to perform push and pop operations, equipped with a single 'register' that we use for I/O and basic addition/subtraction/multiplication/division.
@@ -9,8 +12,10 @@ The machine is provably Turing-complete when N > 1 as it can use the stacks to r
 <br><br>
 The project aims to implement the machine, make it respond to the aforementioned basic instructions that guarentee completeness, and hopefully(with the help of AI) create a rudimentary compiler.
 <br><br>
+
 ## Instruction Set
 
+run with `java -cp out Main <file.pal> [nStacks]`
 Comments start with `;` and run to the end of the line.
 
 ### Register / Arithmetic
