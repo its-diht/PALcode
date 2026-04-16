@@ -16,6 +16,7 @@ The project aims to implement the machine, make it respond to the aforementioned
 ## Instruction Set
 
 run with `java -cp out Main <file.pal> [nStacks]`
+
 Comments start with `;` and run to the end of the line.
 
 ### Register / Arithmetic
