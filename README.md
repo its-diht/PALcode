@@ -10,7 +10,7 @@ The machine is provably Turing-complete when N > 1 as it can use the stacks to r
 <br><br>
 ![diagram here](./README_images/diagram_goal.png)
 <br><br>
-The project aims to implement the machine, make it respond to the aforementioned basic instructions that guarentee completeness, and hopefully(with the help of AI) create a rudimentary compiler.
+~~The project aims to implement the machine, make it respond to the aforementioned basic instructions that guarentee completeness, and hopefully(with the help of AI) create a rudimentary compiler.~~
 <br><br>
 
 ## Instruction Set
@@ -18,6 +18,8 @@ The project aims to implement the machine, make it respond to the aforementioned
 run with `java -cp out Main <file.pal> [nStacks]`
 
 Comments start with `;` and run to the end of the line.
+
+(just so we're clear, I didn't write this section myself; as I am not familiar with markdown syntax.)
 
 ### Register / Arithmetic
 
@@ -66,7 +68,6 @@ Comments start with `;` and run to the end of the line.
 | `JZ name`    | Jump to `name` if `reg == 0` |
 | `JNZ name`   | Jump to `name` if `reg != 0` |
 
-(just so we're clear, I didn't write this section myself; as I am not familiar with markdown syntax.)
 
 ---
 

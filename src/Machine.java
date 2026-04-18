@@ -12,7 +12,7 @@ public class Machine {
     int reg;
 
     /** 
-     * machine constructor;
+     * machine constructor;<br>
      * pretty self-explanatory, only writing this to get rid of warnings
      */
     @SuppressWarnings("unchecked")
@@ -25,7 +25,7 @@ public class Machine {
     }
 
     /** 
-     * unused code, might use later;
+     * unused code, might use later;<br>
      * returns number of stacks in current machine
      */
     public int stacklen() { return stacks.length; } // unused, but added just in case

@@ -4,12 +4,12 @@ import java.nio.file.Paths;
 
 /**
  * PAL — Pushdown Automata Language
- *
- * Compile:
- *   javac src/*.java -d out
- *
- * Run a .pal file (default 2 stacks):
- *   java -cp out Main <file.pal> [nStacks]
+ * <br><br>
+ * Compile: <br>
+ *   `javac src/*.java -d out`
+ * <br><br>
+ * Run a .pal file (default 2 stacks): <br>
+ *   `java -cp out Main [file.pal] [nStacks]`
  */
 public class Main {
 
