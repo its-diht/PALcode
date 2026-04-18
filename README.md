@@ -8,7 +8,7 @@ The 'machine' consists of an array of N separate stacks, and a 'head' that can m
 As a meta-instruction, it also provides labels and jumps.
 The machine is provably Turing-complete when N > 1 as it can use the stacks to replicate a tape by using one stack as the tape to the left side of the head and another as the right side of the head, and replicate the state table through labels and jumps.
 <br><br>
-![diagram here](./README_images/diagram_goal.png)
+![diagram here](./README_images/diagram_actual.png)
 <br><br>
 ~~The project aims to implement the machine, make it respond to the aforementioned basic instructions that guarentee completeness, and hopefully(with the help of AI) create a rudimentary compiler.~~
 <br><br>
