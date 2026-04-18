@@ -1,4 +1,4 @@
-# PAL
+# PAL (by 22300608 Hyunseo Lee)
 
 ## Introduction
 
