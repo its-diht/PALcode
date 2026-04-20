@@ -1,4 +1,6 @@
-# PAL User Guide
+# PAL User Guide(Claude's version)
+
+disclaimer; this document is here purely to help people understand the project, and this document was not written by me. [this](USERGUIDE.md) is the user guide that I wrote to be graded. 
 
 ## What is PAL?
 
